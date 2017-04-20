@@ -1,8 +1,7 @@
-import Datastore = require('@google-cloud/datastore');
 import {GCloud} from '../';
 
 declare class Datastore {
-    constructor(options?: Datastore.DataStoreConfiguration);
+    constructor(options: Datastore.DataStoreConfiguration);
 }
 
 declare namespace Datastore {
