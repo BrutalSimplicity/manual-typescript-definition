@@ -6,6 +6,9 @@
         "sourceMap": true,
         "outDir": "js",
         "baseUrl": ".",
+        "paths": {
+            "*": ["types/*"]
+        },
         "typeRoots": [
             "./types"
         ]
